@@ -8,7 +8,6 @@ function HooksCakeContainer() {
     return state.cake.numOfCakes;
   });
   const dispatch = useDispatch();
-  console.log(numOfCakes);
   return (
     <div>
       <h2>Num of cakes : {numOfCakes}</h2>
